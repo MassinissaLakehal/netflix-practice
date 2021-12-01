@@ -1,11 +1,28 @@
+import React from "react";
 import "./App.css";
+import Section from "./components/Section";
+import Footer from "./components/Footer";
+import movies from "./assets/movies_vze0mn.json";
 
-function App() {
+import logo from "./assets/logo.png";
+
+const App = () => {
   return (
-    <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
+    <div className="container">
+      <img className="logo" src={logo} alt="netflix-logo" />
+      {movies.map((movie, index) => {
+        return (
+          <Section
+            className="section"
+            key={index}
+            category={movie.category}
+            images={movie.images}
+          />
+        );
+      })}
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;

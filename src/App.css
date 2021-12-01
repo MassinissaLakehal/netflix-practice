@@ -1,1 +1,49 @@
 /* Other rules */
+
+body {
+  background-color: #000000;
+  width: 100vw;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  margin-left: 2vw;
+}
+
+.logo {
+  height: 15vh;
+}
+
+.category {
+  margin: 40px 0;
+}
+
+.imgCarousel {
+  display: flex;
+  overflow-x: auto;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.imgCarousel::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.imgCarousel {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.movieImg {
+  margin: 0 0.3vw;
+  border-radius: 3px;
+}
+
+.footerText {
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: italic;
+  margin-top: 40px;
+  text-align: center;
+}

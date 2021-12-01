@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Notes from Massinissa Lakehal
+
+This exercice was made as the first of learning how to use React JS. It was consisting in getting a list of movies, their title and cover from a JSON file, create a dedicated component called Section, and display them without any functionality in it.
+
 ## Available Scripts
 
 In the project directory, you can run:
